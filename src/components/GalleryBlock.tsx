@@ -1,6 +1,4 @@
-﻿import React from "react";
-
-function GalleryBlock() {
+﻿function GalleryBlock() {
   return <div>GalleryBlock</div>;
 }
 
