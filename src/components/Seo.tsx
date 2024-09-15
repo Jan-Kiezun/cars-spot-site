@@ -1,9 +1,13 @@
 ﻿function Seo() {
   // komponent z dwoma elementami z tytułem, opisem oraz podkreślonym tesktem ze strzałką „rozwiń”
   return (
-    <div className="bg-[#282828] py-24 flex flex-row gap-24 px-24 items-center justify-center font-roboto-condensed border-b-2 border-gray-300">
+    <div
+      className="bg-[#282828] py-24 flex flex-row gap-24 px-24 items-center justify-center font-roboto-condensed border-b-2 border-zinc-400
+      max-sm:px-4 max-sm:flex-col max-sm:py-16 max-sm:justify-start max-sm:items-start max-sm:gap-5 max-sm:pb-16 max-sm:border-b-0
+    "
+    >
       <div className="container mx-auto flex flex-col gap-5">
-        <h2 className="text-2xl font-bold text-[#F7F7F7] font-roboto-flex uppercase tracking-tighter">
+        <h2 className="text-3xl font-semibold text-[#F7F7F7] font-roboto-flex uppercase tracking-[-0.07em]">
           Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla
           commodo.
         </h2>
@@ -29,7 +33,7 @@
         </p>
       </div>
       <div className="container mx-auto flex flex-col gap-5">
-        <h2 className="text-2xl font-bold text-[#F7F7F7] font-roboto-flex uppercase tracking-tighter">
+        <h2 className="text-3xl font-semibold text-[#F7F7F7] font-roboto-flex uppercase tracking-[-0.07em]">
           Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla
           commodo.
         </h2>
