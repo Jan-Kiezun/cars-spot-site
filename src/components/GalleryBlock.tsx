@@ -1,12 +1,11 @@
 ﻿import React, { useState } from "react";
+import red_car from "../assets/red-car.svg";
+import black_car from "../assets/black-car.svg";
+import closeup_car from "../assets/closeup-car.svg";
 
 const GalleryBlock = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const slides = [
-    "/src/assets/red-car.svg",
-    "/src/assets/black-car.svg",
-    "/src/assets/closeup-car.svg",
-  ];
+  const slides = [red_car, black_car, closeup_car];
 
   const goToSlide = (index: React.SetStateAction<number>) => {
     setActiveIndex(index);
