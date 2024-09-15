@@ -15,7 +15,7 @@ const GalleryBlock = () => {
   return (
     <div
       id="indicators-carousel"
-      className="relative w-[85%] mx-auto my-10"
+      className="relative w-[85%] mx-auto my-10 mb-48"
       data-carousel="static"
     >
       {/* Carousel wrapper */}
@@ -38,7 +38,7 @@ const GalleryBlock = () => {
       </div>
 
       {/* Slider indicators */}
-      <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-[-30px] left-1/2">
+      <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-[-5rem] left-1/2">
         {slides.map((_, index) => (
           <button
             key={index}
