@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      "roboto-flex": ["Roboto\\ Flex", "sans-serif"],
+      "roboto-condensed": ["Roboto\\ Condensed", "sans-serif"],
+    },
   },
   plugins: [],
 };
